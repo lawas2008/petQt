@@ -24,8 +24,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp
+    main.cpp \
+    mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h
+    mainwindow.h
+
+SUBDIRS += \
+    petQt.pro
+
+DISTFILES += \
+    README.md
